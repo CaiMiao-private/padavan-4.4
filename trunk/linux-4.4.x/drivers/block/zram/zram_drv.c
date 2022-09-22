@@ -31,6 +31,7 @@
 #include <linux/idr.h>
 #include <linux/sysfs.h>
 
+#include <linux/zsmalloc.h>
 #include "zram_drv.h"
 
 static DEFINE_IDR(zram_index_idr);
